@@ -1,5 +1,5 @@
 #include <stdio.h> //sgfs
- #include <stdlib.h> /swj
+ #include <stdlib.h> /swjw
  
  typedef struct element {
    struct element *next;
