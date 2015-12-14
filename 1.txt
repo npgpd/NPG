@@ -1,7 +1,7 @@
 #include <stdio.h> //mojamodyfikacjawpierwszejlinijce huehue
  #include <stdlib.h>//atomojalinijkaSM
  
- typedef struct element {
+ typedef struct element {//heheh
    struct element *next;
    unsigned long val;
  } el_listy;
@@ -14,7 +14,7 @@
    wsk = lista;
    while (wsk->next != NULL)
      { 
-     wsk = wsk->next; /* przesuwamy wsk a¿ znajdziemy ostatni element */
+     wsk = wsk->next; /* przesuwamy wsk aÂ¿ znajdziemy ostatni element */
      }
    nowy =(el_listy*) malloc (sizeof(el_listy));
    nowy->val = liczba;
