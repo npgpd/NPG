@@ -1,5 +1,5 @@
 #include <stdio.h>
- #include <stdlib.h> //gets
+ #include <stdlib.h> //gets what?
  
  typedef struct element {
    struct element *next;
@@ -14,7 +14,7 @@
    wsk = lista;
    while (wsk->next != NULL)
      { 
-     wsk = wsk->next; /* przesuwamy wsk a¿ znajdziemy ostatni element */
+     wsk = wsk->next; /* przesuwamy wsk aÂ¿ znajdziemy ostatni element */
      }
    nowy =(el_listy*) malloc (sizeof(el_listy));
    nowy->val = liczba;
