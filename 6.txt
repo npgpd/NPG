@@ -2,7 +2,7 @@
  #include <stdlib.h>
  
  typedef struct element {
-   struct element *next;
+   struct element *next;//Je jej
    unsigned long val;
  } el_listy;
  
@@ -14,7 +14,7 @@
    wsk = lista;
    while (wsk->next != NULL)
      { 
-     wsk = wsk->next; /* przesuwamy wsk a¿ znajdziemy ostatni element */
+     wsk = wsk->next; /* przesuwamy wsk aÂ¿ znajdziemy ostatni element */
      }
    nowy =(el_listy*) malloc (sizeof(el_listy));
    nowy->val = liczba;
