@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>//BOOM
  #include <stdlib.h>
  
  typedef struct element {
@@ -14,7 +14,7 @@
    wsk = lista;
    while (wsk->next != NULL)
      { 
-     wsk = wsk->next; /* przesuwamy wsk a¿ znajdziemy ostatni element */
+     wsk = wsk->next; /* przesuwamy wsk aÂ¿ znajdziemy ostatni element */
      }
    nowy =(el_listy*) malloc (sizeof(el_listy));
    nowy->val = liczba;
