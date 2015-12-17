@@ -1,5 +1,5 @@
 #include <stdio.h> //ggegeg
- #include <stdlib.h>
+ #include <stdlib.h> //dups
  
  typedef struct element {
    struct element *next;
