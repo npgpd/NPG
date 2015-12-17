@@ -10,7 +10,7 @@
  //zmiana10
  void dodaj_do_listy (el_listy *lista, unsigned long liczba)//zmiana1n
  {
-   el_listy *wsk, *nowy;
+   el_listy *wsk, *nowy; //testdomowy
    wsk = lista;
    while (wsk->next != NULL)
      { 
